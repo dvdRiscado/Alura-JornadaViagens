@@ -1,12 +1,3 @@
-.category {
-  margin-bottom: 88px;
-}
-
-.category .section-title {
-  width: 312px;
-  margin: 0 auto;
-}
-
 .category-cards {
   display: flex;
   flex-direction: column;
