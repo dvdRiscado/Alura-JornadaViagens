@@ -17,8 +17,7 @@
 }
 
 .category-cards .card h3 {
-  font-weight: var(--title-weight);
-  font-size: 28px;
+  margin: 0;
 }
 
 .category-cards .card figure {
