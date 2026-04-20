@@ -39,8 +39,12 @@
     line-height: 32px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
     .testimonial-container {
         flex-direction: row;
+    }
+
+    .testimonial-container article {
+        width: 384px;
     }
 }
