@@ -3,8 +3,8 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto;
   grid-template-areas:
-    "bag passport"
-    "people people";
+    "first second"
+    "thirdy thirdy";
   gap: 24px;
 }
 
@@ -17,19 +17,43 @@
 .payments .image.first {
   background: url(../img/gallery1-mobile.jpg) no-repeat;
   background-size: cover;
-  grid-area: bag;
+  grid-area: first;
 }
 
 .payments .image.second {
   background: url(../img/gallery2-mobile.jpg) no-repeat;
   background-size: cover;
-  grid-area: passport;
+  grid-area: second;
 }
 
 .payments .image.thirdy {
   background: url(../img/gallery3-mobile.jpg) no-repeat;
   background-size: cover;
-  grid-area: people;
+  grid-area: thirdy;
+}
+
+.travel-packages.payments .button {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.travel-packages.payments .first {
+  background: url(../img/gallery4-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: first;
+}
+
+.travel-packages.payments .image.second {
+  background: url(../img/gallery5-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: second;
+}
+
+.travel-packages.payments .image.thirdy {
+  background: url(../img/gallery6-tablet.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-area: thirdy;
 }
 
 @media screen and (min-width: 768px) {
@@ -45,6 +69,25 @@
 
   .payments .image.thirdy {
     background: url(../img/gallery3-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.payments .button {
+    display: none;
+  }
+
+  .travel-packages.payments .image.first {
+    background: url(../img/gallery4-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.payments .image.second {
+    background: url(../img/gallery5-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .travel-packages.payments .image.thirdy {
+    background: url(../img/gallery6-tablet.jpg) no-repeat;
     background-size: cover;
   }
 }
