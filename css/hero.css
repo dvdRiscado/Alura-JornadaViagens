@@ -14,6 +14,10 @@
   line-height: 1.5;
 }
 
+.travel-packages.hero {
+  margin-bottom: 88px;
+}
+
 .travel-packages.hero .hero-img {
   height: 460px;
   background: url(../img/hero-travel-packages-mobile.jpg) no-repeat;
