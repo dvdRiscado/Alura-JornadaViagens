@@ -14,6 +14,7 @@
   line-height: 1.5;
 }
 
+.blog.hero,
 .travel-packages.hero {
   margin-bottom: 88px;
 }
@@ -25,6 +26,14 @@
   background-position: center;
 }
 
+.blog.hero .hero-img {
+  height: 460px;
+  background: url(../img/hero-blog-tablet.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.blog.hero .hero-content,
 .travel-packages.hero .hero-content {
   top: 140px;
   text-align: left;
@@ -32,6 +41,7 @@
   padding-top: 65px;
 }
 
+.blog.hero .hero-content h2,
 .travel-packages.hero .hero-content h2 {
   font-size: 48px;
   font-weight: var(--title-weight);
@@ -41,12 +51,14 @@
   text-align: left;
 }
 
+.blog.hero .hero-content hr,
 .travel-packages.hero .hero-content hr {
   width: 180px;
   border: 2px solid var(--secondary-color);
   margin-top: 16px;
 }
 
+.blog.hero .hero-content p,
 .travel-packages.hero .hero-content p {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -75,12 +87,30 @@
     background-position: center;
   }
 
+  .blog.hero .hero-img {
+    height: 620px;
+    background: url(../img/hero-blog-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .blog.hero .hero-content,
   .travel-packages.hero .hero-content {
     padding-top: 210px;
     width: 580px;
     margin: 0 auto 88px 120px;
   }
+
+  .blog.hero .hero-content p,
+  .travel-packages.hero .hero-content p {
+    font-size: 32px;
+    font-weight: var(--text-weight);
+    line-height: 150%;
+    color: var(--text-secondary-color);
+    margin-top: 32px;
+  }
 }
+
 
 @media screen and (min-width: 1024px) {
   .hero-img {
@@ -100,9 +130,16 @@
     background-position: center;
   }
 
+  .blog.hero .hero-img {
+    background: url(../img/hero-blog-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .blog.hero .hero-content,
   .travel-packages.hero .hero-content {
     padding-top: 158px;
-  }  
+  }
 }
 
 @media screen and (min-width: 1920px) {
