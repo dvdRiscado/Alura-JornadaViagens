@@ -1,0 +1,98 @@
+.posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+}
+
+.posts-container .post-img {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 16px;
+}
+
+.posts-container h3 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin-bottom: 8px;
+  line-height: 100%;
+}
+
+.posts-container p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.posts-container .button {
+  width: 100%;
+}
+
+.posts-container .post-img.osaka {
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.posts-container .post-img.hiroshima {
+  background: url(../img/hiroshima-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.posts-container .post-img.kyoto {
+  background: url(../img/kyoto-mobile.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .posts-container .button {
+    width: 280px;
+  }
+
+  .posts-container .post-img.osaka {
+    background: url(../img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .posts-container .post-img.hiroshima {
+    background: url(../img/hiroshima-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .posts-container .post-img.kyoto {
+    background: url(../img/kyoto-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+    .posts-container {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .posts-container article {
+        width: 384px;
+    }
+
+  .posts-container .post-img.osaka {
+    background: url(../img/osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .posts-container .post-img.hiroshima {
+    background: url(../img/hiroshima-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .posts-container .post-img.kyoto {
+    background: url(../img/kyoto-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

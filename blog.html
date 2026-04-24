@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis."
+    />
+
+    <link rel="icon" href="favico.svg" type="xml/svg" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <meta name="og:title" content="Blog - Jornada Viagens" />
+    <meta
+      name="og:description"
+      content="Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis."
+    />
+    <meta
+      name="og:image"
+      content="https://dvdriscado.github.io/alura-jornadaviagens/img/bussola-texto-jornada-viagens.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:url"
+      content="https://dvdriscado.github.io/alura-jornadaviagens/blog"
+    />
+
+    <title>Blog - Jornada Viagens</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="./index.html" class="logo" title="Voltar para a página inicial">
+        <figure class="img-mobile">
+          <img
+            src="./img/bussola-jornada-branca.png"
+            alt="Bússola do logo Jornada Viagens na cor branco"
+          />
+          <figcaption hidden>
+            Bússola do logo Jornada Viagens na cor branco
+          </figcaption>
+        </figure>
+
+        <figure class="img-desktop">
+          <img
+            src="./img/bussola-texto-jornada-branco.png"
+            alt="Logo Jornada Viagens na cor branco"
+          />
+        </figure>
+        <figcaption hidden>Logo Jornada Viagens na cor branco</figcaption>
+      </a>
+
+      <div class="navigation-menu">
+        <label for="menu">
+          <figure>
+            <img src="./img/menu.png" alt="Menu" />
+            <figcaption hidden>Menu</figcaption>
+          </figure>
+        </label>
+        <input type="checkbox" name="menu" id="menu" hidden />
+
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a
+                href="blog.html"
+                target="_blank"
+                title="Acessar Blog"
+                class="active"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="pacotes.html"
+                target="_blank"
+                title="Acessar Pacotes de Viagem"
+                >Pacotes de Viagem</a
+              >
+            </li>
+            <li>
+              <a href="contato.html" target="_blank" title="Acessar Contato"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="blog hero">
+        <figure class="hero-img">
+          <img
+            src="./img/hero-blog-tablet.jpg"
+            alt="Mulher escreve em caderno no topo da montanha."
+            hidden
+          />
+
+          <figcaption hidden>
+            Mulher escreve em caderno no topo da montanha.
+          </figcaption>
+
+          <section class="hero-content">
+            <h2>Blog da Jornada</h2>
+            <hr />
+            <p>
+              Histórias de viagens de nossos clientes. Inspire-se, encontre
+              roteiros e dicas! Qual seu próximo destino?
+            </p>
+          </section>
+        </figure>
+      </section>
+
+      <section class="story">
+        <div class="section-title">
+          <h2>Destinos da Excursão</h2>
+          <hr />
+        </div>
+
+        <article class="story-item row">
+          <header class="story-content">
+            <h3>Chegada</h3>
+            <p>
+              Nossa viagem começou no Aeroporto Internacional de Narita,
+              localizado a cerca de 60 km de Tóquio. Após desembarcar e fazer
+              todos os procedimentos de imigração, fomos recebidos pela equipe
+              da Jornada Viagens, que nos conduziu até o nosso hotel.
+            </p>
+          </header>
+          <footer class="story-content">
+            <figure class="story-img tokyo">
+              <img
+                src="./img/story-tokyo-mobile.jpg"
+                alt="Loja japonesa tradicional com bicicletas estacionadas."
+                hidden
+              />
+              <figcaption hidden>
+                Loja japonesa tradicional com bicicletas estacionadas.
+              </figcaption>
+            </figure>
+          </footer>
+        </article>
+
+        <article class="story-item">
+          <header>
+            <h3>Acomodação</h3>
+            <p>
+              Nos hospedamos no luxuoso Hotel Okura Tokyo, localizado no bairro
+              de Toranomon. O hotel possui uma vista incrível para a cidade, e
+              oferece uma ampla gama de serviços, incluindo um spa, uma piscina,
+              restaurantes renomados e um lounge bar. Ficamos encantados com a
+              atenção aos detalhes e a qualidade do atendimento.
+            </p>
+          </header>
+
+          <footer>
+            <figure class="story-img tokyo-city">
+              <img
+                src="./img/story-tokyo-city-mobile.jpg"
+                alt="Vista noturna da cidade com ponte iluminada sobre a água."
+                hidden
+              />
+              <figcaption hidden>
+                Vista noturna da cidade com ponte iluminada sobre a água.
+              </figcaption>
+            </figure>
+
+            <p class="caption">Vista da cidade da janela do hotel!</p>
+          </footer>
+        </article>
+
+        <article class="story-item">
+          <header>
+            <h3>Explorando a cidade</h3>
+            <p>
+              Começamos nosso tour pela cidade com uma visita ao famoso Templo
+              Sensoji, um dos mais antigos e importantes templos budistas do
+              Japão. Caminhamos pela rua comercial Nakamise, onde encontramos
+              muitas lojas vendendo artigos típicos japoneses, como quimonos,
+              leques e comidas tradicionais. <br />Em seguida, visitamos o
+              icônico cruzamento de Shibuya, um dos mais movimentados do mundo,
+              onde observamos a sincronia dos pedestres atravessando a rua.
+              <br />No dia seguinte, visitamos o Parque Ueno, que abriga o Museu
+              Nacional de Tóquio, onde pudemos conhecer a história e cultura
+              japonesa. À noite, fomos a um típico Izakaya, um bar japonês que
+              serve uma grande variedade de pratos e bebidas.
+            </p>
+          </header>
+        </article>
+
+        <article class="story-item">
+          <header>
+            <h3>Compras</h3>
+            <p>
+              Tóquio é famosa por suas lojas de departamento e centros
+              comerciais, e não podíamos deixar de visitar algumas delas. Fomos
+              ao famoso distrito comercial de Ginza, onde encontramos lojas das
+              marcas mais renomadas do mundo. <br />Também visitamos o distrito
+              de Akihabara, conhecido como o centro de eletrônicos e
+              entretenimento de Tóquio, onde encontramos diversas lojas de
+              jogos, eletrônicos e mangás.
+            </p>
+          </header>
+        </article>
+
+        <article class="story-item">
+          <header>
+            <h3>Gastronomia</h3>
+            <p>
+              Não se pode falar do Japão sem mencionar sua gastronomia. Tivemos
+              a oportunidade de experimentar uma grande variedade de pratos
+              típicos, como sushi, sashimi, ramen e tempura, além de doces
+              tradicionais como o mochi.
+            </p>
+          </header>
+        </article>
+
+        <article class="story-item">
+          <header>
+            <h3>Concluindo...</h3>
+            <p>
+              Nossa viagem a Tóquio com a agência Jornada Viagens foi uma
+              experiência inesquecível. A equipe da agência cuidou de todos os
+              detalhes, desde a reserva do hotel até a escolha dos melhores
+              lugares para visitar e comer. Recomendamos a Jornada Viagens para
+              todos que desejam fazer uma viagem incrível ao Japão.
+            </p>
+          </header>
+        </article>
+      </section>
+
+      <section class="posts">
+        <div class="section-title">
+          <h2>Talvez você também goste destes posts...</h2>
+          <hr />
+        </div>
+
+        <div class="posts-container">
+          <article>
+            <figure class="post-img osaka">
+              <img src="./img/osaka-mobile.jpg" alt="" hidden />
+              <figcaption hidden></figcaption>
+            </figure>
+            <h3>Osaka</h3>
+            <p>
+              Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
+              por sua gastronomia deliciosa e por ser um excelente ponto de
+              partida para explorar outras cidades japonesas próximas.
+            </p>
+            <a href="#" class="button" target="_blank" title="">Ver Detalhes</a>
+          </article>
+
+          <article>
+            <figure class="post-img hiroshima">
+              <img src="./img/hiroshima-mobile.jpg" alt="" hidden />
+              <figcaption hidden></figcaption>
+            </figure>
+            <h3>Hiroshima</h3>
+            <p>
+              Cidade localizada no sudoeste do Japão, conhecida mundialmente por
+              ter sido o alvo do primeiro bombardeio atômico da históri. Hoje, a
+              cidade é um símbolo de paz e reconciliação. Além disso, Hiroshima
+              também é conhecida por sua gastronomia.
+            </p>
+            <a href="#" class="button" target="_blank" title="">Ver Detalhes</a>
+          </article>
+
+          <article>
+            <figure class="post-img kyoto">
+              <img src="./img/kyoto-mobile.jpg" alt="" hidden />
+              <figcaption hidden></figcaption>
+            </figure>
+            <h3>Kyoto</h3>
+            <p>
+              Kyoto é uma cidade localizada no centro do Japão, conhecida por
+              ser a antiga capital do país e preservar muitas tradições
+              culturais japonesas. Com seus templos históricos, jardins
+              tradicionais e cerimônias de chá, é um mergulho na cultura
+              japonesa.
+            </p>
+            <a href="#" class="button" target="_blank" title="">Ver Detalhes</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="footer-content">
+        <a href="#" class="logo-footer" title="Voltar para a página inicial">
+          <figure class="img-footer">
+            <img
+              src="./img/bussola-texto-jornada-viagens.png"
+              alt="Logo Jornada Viagens na cor branco"
+            />
+            <figcaption hidden>Logo Jornada Viagens na cor branco</figcaption>
+          </figure>
+        </a>
+
+        <p>Horário de atendimento: 08h - 20h (Segunda a Sábado)</p>
+        <p>Desenvolvido por Alura. Projeto fictício sem fins comerciais.</p>
+      </section>
+      <section class="footer-social">
+        <p>Acesse nossas redes:</p>
+        <div class="social-links">
+          <a
+            href="#"
+            class="link"
+            target="_blank"
+            title="Acesse o WhatsApp do Jornada Viagens."
+          >
+            <figure class="img-link">
+              <img
+                src="./img/icon-whatsapp.png"
+                alt="Logo da rede social WhatsApp na cor branca."
+              />
+            </figure>
+          </a>
+
+          <a
+            href="#"
+            class="link"
+            target="_blank"
+            title="Acesse o Instagram do Jornada Viagens."
+          >
+            <figure class="img-link">
+              <img
+                src="./img/icon-instagram.png"
+                alt="Logo da rede social Instagram na cor branca."
+              />
+            </figure>
+          </a>
+
+          <a
+            href="#"
+            class="link"
+            target="_blank"
+            title="Acesse o Twitter do Jornada Viagens."
+          >
+            <figure class="img-link">
+              <img
+                src="./img/icon-twitter.png"
+                alt="Logo da rede social Twitter na cor branca."
+              />
+            </figure>
+          </a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
