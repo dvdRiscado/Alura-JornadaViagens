@@ -89,6 +89,10 @@ section.hero, section.hero-bottom {
   text-align: center;
 }
 
+.button:active {
+  background-color: #8F0101;
+}
+
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);

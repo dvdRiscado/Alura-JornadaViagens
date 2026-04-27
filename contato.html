@@ -103,7 +103,73 @@
             </p>
           </section>
         </figure>
-      </section>  
+      </section>
+
+      <section class="form">
+        <div class="section-title">
+          <h2>Preencha o Formulário</h2>
+          <hr />
+        </div>
+
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+
+        <form action="" method="get">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Seu Nome"
+            required
+          />
+
+          <div class="row">
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              pattern="[0-9]{11}"
+              placeholder="Telefone"
+              aria-describedby="phoneHelp"
+              required
+            />
+            <small id="phoneHelp" hidden
+              >Preencha com 11 dígitos no formato: DDD + número sem espaços ou
+              hífen.</small
+            >
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <input
+            type="text"
+            name="title"
+            id="title"
+            placeholder="Título"
+            required
+          />
+
+          <label for="description">Assunto</label>
+          <textarea
+            name="description"
+            id="description"
+            rows="3"
+          ></textarea>
+
+          <button class="button" type="submit">Enviar!</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
