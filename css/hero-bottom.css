@@ -31,18 +31,18 @@
   }
 
   .travel-packages.hero-bottom .hero-bottom-img {
-  height: 400px;
-  background: url(../img/hero-bottom-travel-packages-tablet.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+    height: 400px;
+    background: url(../img/hero-bottom-travel-packages-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
-.contact.hero-bottom .hero-bottom-img {
-  height: 400px;
-  background: url(../img/hero-bottom-contact-tablet.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  .contact.hero-bottom .hero-bottom-img {
+    height: 400px;
+    background: url(../img/hero-bottom-contact-tablet.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -54,16 +54,16 @@
   }
 
   .travel-packages.hero-bottom .hero-bottom-img {
-  height: 600px;
-  background: url(../img/hero-bottom-travel-packages-desktop.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+    height: 600px;
+    background: url(../img/hero-bottom-travel-packages-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 
-.contact.hero-bottom .hero-bottom-img {
-  height: 600px;
-  background: url(../img/hero-bottom-contact-desktop.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+  .contact.hero-bottom .hero-bottom-img {
+    height: 600px;
+    background: url(../img/hero-bottom-contact-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }
